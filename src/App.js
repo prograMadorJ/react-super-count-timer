@@ -36,6 +36,7 @@ export default function App() {
   }
 
   function handleReset2() {
+    settings2.date.setTime(0);
     settings2.reset();
     setResultTimesUp2(false);
   }
